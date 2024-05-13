@@ -1,0 +1,22 @@
+.box{
+    width:200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.box1{
+    /* transform: translate(100px, -50px); */
+    background-color: rgb(173, 13, 217);
+}
+.box2{
+    transform: rotate(180deg);
+}
+.box3:hover{
+    transform: scale(0.5);
+    transform: 1s;
+}
